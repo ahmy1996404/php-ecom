@@ -1,0 +1,375 @@
+/* start main rules */
+
+body {
+  background-color: #f4f4f4;
+  font-size: 16px;
+}
+.input-container{
+  position: relative;
+}
+
+.asterisk{
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  color: #D20707;
+}
+.main-form .asterisk{
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  color: #D20707;
+}
+
+.nice-message{
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px 0;
+  border-left: 5px solid #080;
+}
+h1{
+  font-size: 55px;
+  margin : 40px 0;
+  font-weight: bold;
+  color: #666;
+}
+/* end main rules */
+
+
+/* start bootstrap edit */
+.navbar{
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.nav > li > a ,
+.navbar-brand {
+  padding: 15px 12px;
+}
+.navbar-brand{
+  font-size: 1em;
+  margin-right: 0px;
+
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link,.dropdown-menu{
+  background-color: #3498db;
+  color: #fff;
+}
+.dropdown-menu{
+    background-color: #3498db;
+    min-width: 180px;
+    padding: 0px;
+    font-size: 1em;
+    text-align: left;
+    border: none;
+    border-radius: 0;
+    margin: 0px;
+
+}
+.dropdown-item{
+  color:#fff;
+  padding: 10px 15px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover
+{
+  color:#fff;
+  background-color: #8e44ad;
+}
+.form-control{
+  position: relative;
+}
+/* end bootstrap edit */
+
+/* start dashboard page */
+.home-stats .stat{
+  padding: 20px;
+  font-size: 15px;
+  color:#FFF;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.home-stats .stat i{
+  position: absolute;
+  font-size: 80px;
+  top: 35px;
+  left: 30px;
+}
+.home-stats .stat .info{
+  float: right;
+}
+.home-stats .stat a{
+  color: #FFF;
+}
+.home-stats .stat a:hover{
+  text-decoration: none;
+}
+
+.home-stats .stat span{
+  display:block;
+  font-size: 60px;
+}
+.home-stats .st-members{
+  background-color: #3498db;
+}
+.home-stats .st-pending{
+  background-color: #c0392b;
+}
+.home-stats .st-items{
+  background-color: #d35400;
+}
+.home-stats .st-comments{
+  background-color: #8e44ad;
+}
+.latest{
+  margin-top:30px;
+}
+.latest .toggle-info {
+  color:#999;
+}
+.latest .toggle-info:hover {
+  color:#444;
+  cursor: pointer;
+}
+.latest-users{
+  margin-bottom: 0;
+}
+.latest-users li {
+  padding: 10px;
+  overflow: hidden;
+}
+.latest-users li:nth-child(odd) {
+  background-color: #EEE;
+}
+.latest-users .btn-success,
+.latest-users .btn-info
+ {
+  padding: 2px 8px;
+}
+.latest-users .btn-info
+{
+  margin-right: 5px;
+}
+.latest .comment-box {
+  margin: 5px 0 10px ;
+}
+.latest .comment-box .member-n ,
+.latest .comment-box .member-c{
+  float:left;
+}
+.latest .comment-box .member-n{
+  width: 80px;
+  text-align: center;
+  margin-right: 20px;
+  position: relative;
+  top: 10px;
+}
+.latest .comment-box .member-c{
+  width: calc(100% - 100px );
+  background-color: #EFEFEF;
+  padding: 10px;
+  position: relative;
+}
+.latest .comment-box .member-c:before{
+  content: "";
+  display: block;
+  position: absolute;
+  left:-29px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent #EFEFEF transparent transparent;
+  border-width: 15px
+}
+/* end dashboard page */
+
+/* start header */
+.upper-bar{
+  padding: 10px;
+  background-color: #FFF;
+  text-align: right;
+}
+.upper-bar .my-image{
+  width: 32px;
+  height: 32px;
+}
+/* end header */
+
+/* start Login page */
+.login-page form ,
+.the-errors{
+  max-width: 380px;
+  margin: auto;
+
+}
+.login-page form {
+  max-width: 380px;
+  margin: auto;
+}
+.login-page form input {
+  margin-bottom: 10px;
+}
+.login-page .signin.selected{
+  color: #007bff;
+}
+.login-page .register.selected{
+  color: #28a745;
+}
+.login-page h1{
+    font-size: 55px;
+    margin : 40px 0;
+    font-weight: bold;
+    color: #c0c0c0;
+
+}
+.login-page h1 span{
+  cursor: pointer;
+}
+.login-page .signup{
+  display: none;
+}
+.the-errors .msg{
+  padding: 10px;
+  text-align: left;
+  border-left: 5px solid #cd6858;
+  background-color: #fff;
+  margin-bottom: 8px;
+  border-right:1px solid #e0e0e0;
+  border-top:1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #919191;
+}
+
+.the-errors .error {
+  border-left: 5px solid #cd6858;
+}
+/* end Login page */
+
+/* start categories page */
+
+.item-box{
+  position:relative;
+  margin-top: 20px;
+}
+.item-box .price-tag {
+  background-color: #B4B4B4;
+  padding: 2px 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-weight: bold;
+  color: #FFF;
+}
+.item-box .approve-status {
+  position:absolute;
+  top: 40px;
+  left:0;
+  background-color: #b85a5a;
+  color: #FFF;
+  padding: 3px 5px;
+}
+.item-box .caption p {
+  height: 35px;
+  max-height: 35px;
+
+}
+
+/* end caegories */
+
+/* start profile page */
+.block{
+  margin: 20px 0 0 ;
+}
+.information{
+  margin-top: 20px;
+}
+.information ul{
+  padding: 0;
+  margin: 0;
+}
+.information ul li {
+  padding: 10px;
+
+}
+.information ul li:nth-child(odd) {
+  background-color: #EEE;
+}
+.information ul li span {
+  display: inline-block;
+  width: 120px;
+}
+.regdate p {
+  text-align: right;
+  font-size: 13px;
+  color: #AAA;
+  font-weight: bold;
+}
+.information .btn{
+  margin-top: 10px;
+}
+/* end profile page */
+/* start show item page */
+.item-info h2 {
+  margin: 0;
+}
+.item-info p {
+  padding: 10px;
+}
+.item-info ul li{
+  padding : 10px ;
+}
+.item-info ul li:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+.item-info ul li span {
+  display: inline-block;
+  width: 120px;
+}
+.tags-items a{
+  display: inline-block;
+  background-color: #e2e2e2;
+  padding: 2px 10px;
+  border-radius: 5px;
+  color: #666;
+  margin-right: 5px;
+}
+.add-comment h3 {
+  margin: 0 0 10px;
+}
+.add-comment textarea {
+display: block;
+margin-bottom: 10px;
+width: 500px;
+height: 120px;
+}
+.comment-box{
+  margin-bottom: 20px;
+}
+.comment-box img  {
+  max-width: 100px;
+  display: block;
+  margin-bottom: 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+.comment-box .lead {
+  background-color: #e0e0e0;
+  position: relative;
+  padding: 10px;
+  margin-top: 25px;
+}
+.comment-box .lead::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    left: -28px;
+    top:10px;
+}
+/* end show item page */
